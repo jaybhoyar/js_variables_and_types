@@ -40,7 +40,7 @@ else
 var firstName = 'John';
 var status = 'single';
 if (status == "single"){
-    console.log (firstName  +' is single');
+    console.log (firstName +' is single');
 }else 
     console.log (firstName +' is married');
 
@@ -54,7 +54,7 @@ if (status == "single"){
 
 var n1 = Number (prompt ('Enter first Number'));
 var n2 = Number (prompt ('Enter second Number'));
- (n1>n2) ? alert(n1); : alert(n2);
+ (n1>n2) ? alert(n1) : alert(n2)
 ```
 
 4. 🎖Write a JavaScript conditional statement to find the sign (+, -) of product of three numbers. Take those three numbers from user using `prompt`. Display an alert box with the specified sign.
@@ -119,11 +119,6 @@ switch(number) {
             break;            
 
 }
-
-
-
-
-
 ```
 
 2. 🎖Using switch statement do the following
@@ -143,24 +138,24 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
 
 var marks = Number (prompt('Enter the marks'));
 switch(marks) {
-    case (marks > 90): alert ('AA');
-            break;
+    case (marks > 90 && marks <=100): alert ('AA');
+        break;
     case (marks > 80 && marks <= 90 ): alert ('AB');
-            break;
+        break;
     case (marks > 70 && marks <= 80 ): alert ('BB');
-            break;
+        break;
     case (marks > 60 && marks <= 70 ): alert ('BC');
-            break;
+        break;
     case (marks > 50 && marks <= 60 ): alert ('CC');
-            break;
+        break;
     case (marks > 40 && marks <= 50 ): alert ('CD');
-            break;
+        break;
     case (marks > 30 && marks <= 40 ): alert ('DD');
-            break;
-    case (marks <= 30): alert ('DD');
-            break;  
+        break;
+    case (marks <= 30): alert ('FF');
+        break;  
     default: alert ('Wrong Input') ;
-            break;            
+        break;            
 
 }
 
