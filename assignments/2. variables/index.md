@@ -4,7 +4,7 @@
 var name = "Mark";
 ```
 
-name is a variable.
+name is the name of the variable.
 
 2. Find the error if any
 
